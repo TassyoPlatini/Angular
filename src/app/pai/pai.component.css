@@ -1,24 +1,33 @@
-.paragrafo{
+.paragrafo {
     color: white;
     outline: 1px solid brown;
     background: darkgreen;
 }
 
-.vermelha{
+.vermelha {
     color: white;
     outline: 2px solid brown;
     font-size: 1.5rem;
     background: red;
 }
-.verde{
+
+.verde {
     color: white;
     outline: 2px solid purple;
     font-size: 1.5rem;
     background: green;
 }
-.azul{
+
+.azul {
     color: white;
     outline: 2px solid darkblue;
     font-size: 1.5rem;
     background: blue;
+}
+
+.amarelo {
+    color: white;
+    outline: 2px solid black;
+    font-size: 1.5rem;
+    background: yellow;
 }

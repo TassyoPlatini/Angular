@@ -7,33 +7,34 @@ import { Component } from '@angular/core';
 })
 export class PaiComponent {
   texto = 'olá mundo!'
-  getNumero(){
+  getNumero() {
     return 40
   }
-  nomeClass='paragrafo'
-  fonte='wingdings'
-  cor='';
-  mudaFonte(){
+  nomeClass = 'paragrafo'
+  fonte = 'wingdings'
+  cor = '';
+  mudaFonte() {
     this.backgroundCor = 'red';
-     this.fonte ='arial';
-    this.cor='blue';
+    this.fonte = 'arial';
+    this.cor = 'blue';
 
-     
+
   }
 
-  
+
   backgroundCor = '';
-  mudaBackCor(value:any){
+  mudaBackCor(value: any) {
     this.backgroundCor = value
   }
   nome = '';
-  mudaNome(value:any){
+  mudaNome(value: any) {
     this.nome = value
   }
-  
-  
-} 
+  linkar: string = 'https://www.uninassau.edu.br/';
+}
 
+
+  
 
 
 

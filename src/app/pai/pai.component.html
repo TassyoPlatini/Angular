@@ -4,10 +4,14 @@
     <p> {{ getNumero() }}</p>
 </article>
 <article>
+    <a [href]="linkar" target="_blank">Clique aqui para ser direcionado ao site</a>
+</article>
+<article>
     <h1>property</h1>
-    <p [class]="nomeClass" [style.fontFamily]="fonte" (click)="mudaFonte()" [style.background]="backgroundCor" [style.color]='cor'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti totam vel,
-         enim qui sed, blanditiis provident iste quaerat iure illum laborum sint inventore quod. 
-         Nulla eos soluta officia alias nesciunt.</p>
+    <p [class]="nomeClass" [style.fontFamily]="fonte" (click)="mudaFonte()" [style.background]="backgroundCor"
+        [style.color]='cor'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti totam vel,
+        enim qui sed, blanditiis provident iste quaerat iure illum laborum sint inventore quod.
+        Nulla eos soluta officia alias nesciunt.</p>
 </article>
 <article>
     <h1>event bind</h1>
@@ -23,14 +27,22 @@
         <option value="red">red</option>
         <option value="green">green</option>
         <option value="blue">blue</option>
+        <option value="yellow">yellow</option>
     </select>
-    <p [class]="'vermelha'" [style.display]="nome=='red'?'block':'none'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, maxime. Hic dolorem ipsam reiciendis rem cum molestiae, 
+    <p [class]="'vermelha'" [style.display]="nome=='red'?'block':'none'">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Cupiditate, maxime. Hic dolorem ipsam reiciendis rem cum molestiae,
         praesentium nostrum veniam et deleniti laboriosam accusamus modi explicabo eius velit nesciunt consequuntur 0.5.
     </p>
-    <p [class]="'verde'" [style.display]="nome=='green'?'block':'none'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, maxime. Hic dolorem ipsam reiciendis rem cum molestiae, 
+    <p [class]="'verde'" [style.display]="nome=='green'?'block':'none'">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Cupiditate, maxime. Hic dolorem ipsam reiciendis rem cum molestiae,
         praesentium nostrum veniam et deleniti laboriosam accusamus modi explicabo eius velit nesciunt consequuntur1.75.
     </p>
-    <p [class]="'azul'" [style.display]="nome=='blue'?'block':'none'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, maxime. Hic dolorem ipsam reiciendis rem cum molestiae, 
+    <p [class]="'azul'" [style.display]="nome=='blue'?'block':'none'">Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Cupiditate, maxime. Hic dolorem ipsam reiciendis rem cum molestiae,
+        praesentium nostrum veniam et deleniti laboriosam accusamus modi explicabo eius velit nesciunt consequuntur3.25.
+    </p>
+    <p [class]="'amarelo'" [style.display]="nome=='yellow'?'block':'none'">Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Cupiditate, maxime. Hic dolorem ipsam reiciendis rem cum molestiae,
         praesentium nostrum veniam et deleniti laboriosam accusamus modi explicabo eius velit nesciunt consequuntur3.25.
     </p>
 </article>
